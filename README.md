@@ -6,9 +6,9 @@ example we print only a text.
 # Setup - Steps
 
 - Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
-  section
-- Create the cpp package, include the CMake .txt and .cpp file
-- Add the follow code in Gradle file
+  section.
+- Create the cpp package, add the CMake .txt and .cpp file.
+- Add the follow code in Gradle file.
 
 ```Kotlin
 android {
@@ -27,7 +27,7 @@ android {
 }
 ```
 
-- Load the C/C++ file
+- Load the C/C++ file.
 
 ```Kotlin
 companion object {
@@ -40,7 +40,7 @@ companion object {
 }
 ```
 
-- Call the method(s) from .cpp file
+- Call the method(s) from .cpp file.
 
 ```Kotlin
 private external fun message(): String 
