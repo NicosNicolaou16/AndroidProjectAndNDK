@@ -3,7 +3,7 @@
 This project is just the setup for NDK, the communication Android project with C/C++ file. In this
 example we print only a text.
 
-#Setup
+#Setup - Steps
 
 - Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
   section
