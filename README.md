@@ -1,6 +1,6 @@
 # Android Project and NDK (Kotlin)
 
-This project is just the setup for NDK, the communication Android project with C/C++ file. In this
+This project is just the setup for the NDK in android, the communication Android project with C/C++ file. In this
 example we print only a text.
 
 # Setup - Steps
