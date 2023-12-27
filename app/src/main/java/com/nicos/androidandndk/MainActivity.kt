@@ -24,7 +24,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    //call method from C file
+    /**
+     * Call method from C file
+     * */
     private external fun message(): String
 
     override fun onCreate(savedInstanceState: Bundle?) {
