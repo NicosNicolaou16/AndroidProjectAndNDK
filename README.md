@@ -94,7 +94,7 @@ companion object {
 }
 ```
 
-- Call the method(s) from .cpp file.
+- Initialize the method(s) from .cpp file.
 
 ```Kotlin
 private external fun message(): String 
