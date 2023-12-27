@@ -4,7 +4,7 @@ This project is just the setup for the NDK in android, the communication Android
 example we print only a text from C/C++ file to Android Project.
 
 ## Similar project with (Kotlin Language)
-https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
+https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK <br />
 
 # Setup - Steps
 
