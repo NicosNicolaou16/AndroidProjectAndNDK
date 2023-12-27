@@ -102,9 +102,9 @@ private external fun message(): String
 
 # References/Tutorials Follow
 
-https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
-https://developer.android.com/studio/projects/add-native-code <br />
 https://github.com/android/ndk-samples <br />
+https://developer.android.com/studio/projects/add-native-code <br />
+https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
 
 Target SDK version: 34 <br />
 Minimum SDK version: 27 <br />
