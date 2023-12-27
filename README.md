@@ -106,6 +106,8 @@ https://github.com/android/ndk-samples <br />
 https://developer.android.com/studio/projects/add-native-code <br />
 https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
 
+## Versions
+
 Target SDK version: 34 <br />
 Minimum SDK version: 27 <br />
 Kotlin version: 1.9.21 <br />
