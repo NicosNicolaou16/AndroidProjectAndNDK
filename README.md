@@ -1,8 +1,7 @@
 # Android Project and NDK (Kotlin)
 
 This project is just the setup for the NDK in android, the communication Android project with C/C++
-file. In this
-example we print only a text from C/C++ file to Android Project.
+file. In this example we print only a text from C/C++ file to Android Project.
 
 ## Similar project with (Dart Language)
 
