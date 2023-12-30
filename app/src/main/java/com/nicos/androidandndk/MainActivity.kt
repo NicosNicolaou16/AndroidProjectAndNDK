@@ -45,14 +45,14 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting()
+                    CallCFunction()
                 }
             }
         }
     }
 
     @Composable
-    fun Greeting(modifier: Modifier = Modifier) {
+    fun CallCFunction(modifier: Modifier = Modifier) {
         var textMessage by rememberSaveable { mutableStateOf("") }
         Box(modifier = modifier, contentAlignment = Alignment.Center) {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
