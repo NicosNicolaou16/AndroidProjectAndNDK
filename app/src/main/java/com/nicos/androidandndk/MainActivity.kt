@@ -18,6 +18,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
 import com.nicos.androidandndk.ui.theme.AndroidAndNDKTheme
 
 class MainActivity : ComponentActivity() {
@@ -59,7 +60,8 @@ class MainActivity : ComponentActivity() {
                 Text(
                     text = textMessage,
                     modifier = modifier,
-                    textAlign = TextAlign.Center
+                    textAlign = TextAlign.Center,
+                    fontSize = 25.sp
                 )
                 Button(onClick = {
                     textMessage = message()
