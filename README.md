@@ -99,6 +99,9 @@ companion object {
 private external fun message(): String 
 ```
 
+## Check my article
+https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb
+
 # References/Tutorials Follow
 
 https://github.com/android/ndk-samples <br />
