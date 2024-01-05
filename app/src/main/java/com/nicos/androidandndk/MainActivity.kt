@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
          * Load the C file
          * */
         init {
-            System.loadLibrary("messageFromC")
+            System.loadLibrary("message-from-c")
         }
     }
 
