@@ -112,5 +112,5 @@ https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br
 
 Target SDK version: 34 <br />
 Minimum SDK version: 27 <br />
-Kotlin version: 2.0.0 <br />
-Gradle version: 8.5.0 <br />
+Kotlin version: 2.0.10 <br />
+Gradle version: 8.5.2 <br />
