@@ -71,7 +71,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.30.5"
+            version = "3.31.0"
         }
     }
     ndkVersion = "27.2.12479018"
@@ -110,7 +110,7 @@ https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br
 
 ## Versions
 
-Target SDK version: 34 <br />
-Minimum SDK version: 27 <br />
+Target SDK version: 35 <br />
+Minimum SDK version: 28 <br />
 Kotlin version: 2.0.21 <br />
-Gradle version: 8.7.1 <br />
+Gradle version: 8.7.2 <br />
