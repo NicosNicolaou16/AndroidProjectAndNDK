@@ -99,8 +99,8 @@ companion object {
 private external fun message(): String 
 ```
 
-## Check my article
-https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb
+> [!IMPORTANT]  
+> Check my article :point_right: [NDK Setup on Android/Flutter Android Project](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
 
 # References/Tutorials Follow
 
