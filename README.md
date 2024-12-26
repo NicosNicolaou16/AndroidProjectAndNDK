@@ -4,10 +4,6 @@ This project sets up the NDK (Native Development Kit) in Android for communicati
 Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
 Android application.
 
-## Similar project with (Dart Language)
-
-https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK <br />
-
 # Setup - Steps
 
 - Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
@@ -101,7 +97,10 @@ private external fun message(): String
 ```
 
 > [!IMPORTANT]  
-> Check my article :point_right: [NDK Setup on Android/Flutter Android Project](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
+> Check my article :point_right: [NDK Setup on Android/Flutter Android Project - Medium](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
+
+> [!IMPORTANT]  
+> Similar project with (Dart Language) :point_right: [FlutterAndroidProjectAndNDK](https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK) :point_left: <br />
 
 ## Versioning
 
