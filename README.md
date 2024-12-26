@@ -1,11 +1,8 @@
 # Android Project and NDK (Kotlin)
 
-This project is just the setup for the NDK in android, the communication Android project with C/C++
-file. In this example we print only a text from C/C++ file to Android Project.
-
-## Similar project with (Dart Language)
-
-https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK <br />
+This project sets up the NDK (Native Development Kit) in Android for communication between an
+Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
+Android application.
 
 # Setup - Steps
 
@@ -71,7 +68,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.31.0"
+            version = "3.31.1"
         }
     }
     ndkVersion = "27.2.12479018"
@@ -99,18 +96,21 @@ companion object {
 private external fun message(): String 
 ```
 
-## Check my article
-https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb
+> [!IMPORTANT]  
+> Check my article :point_right: [NDK Setup on Android/Flutter Android Project - Medium](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
+
+> [!IMPORTANT]  
+> Similar project with (Dart Language) :point_right: [FlutterAndroidProjectAndNDK](https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK) :point_left: <br />
+
+## Versioning
+
+Target SDK version: 35 <br />
+Minimum SDK version: 28 <br />
+Kotlin version: 2.1.0 <br />
+Gradle version: 8.7.3 <br />
 
 # References/Tutorials Follow
 
 https://github.com/android/ndk-samples <br />
 https://developer.android.com/studio/projects/add-native-code <br />
 https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
-
-## Versions
-
-Target SDK version: 35 <br />
-Minimum SDK version: 28 <br />
-Kotlin version: 2.0.21 <br />
-Gradle version: 8.7.2 <br />
