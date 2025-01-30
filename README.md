@@ -68,7 +68,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.31.1"
+            version = "3.31.4"
         }
     }
     ndkVersion = "27.2.12479018"
@@ -106,8 +106,8 @@ private external fun message(): String
 
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
-Kotlin version: 2.1.0 <br />
-Gradle version: 8.7.3 <br />
+Kotlin version: 2.1.10 <br />
+Gradle version: 8.8.0 <br />
 
 # References/Tutorials Follow
 
