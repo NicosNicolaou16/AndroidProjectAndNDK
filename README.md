@@ -17,7 +17,7 @@ Android application.
 
 # Sets the minimum version of CMake required to build the native library.
 
-cmake_minimum_required(VERSION 3.4.1)
+cmake_minimum_required(VERSION 3.6.0)
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -68,7 +68,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.31.5"
+            version = "4.0.2"
         }
     }
     ndkVersion = "28.0.13004108"
@@ -106,8 +106,8 @@ private external fun message(): String
 
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
-Kotlin version: 2.1.10 <br />
-Gradle version: 8.8.0 <br />
+Kotlin version: 2.1.21 <br />
+Gradle version: 8.10.0 <br />
 
 # References/Tutorials Follow
 
