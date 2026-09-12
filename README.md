@@ -128,7 +128,7 @@ private external fun message(): String
 - **Minimum SDK:** **29**
 - **Kotlin Version:** **2.4.20**
 - **Gradle Version:** **9.4.0**
-- **Native Build Tool:** **CMake 3.10.0+**
+- **Native Build Tool:** **CMake 3.1.2+**
 - **NDK Version:** **29.0.14206865**
 - **CMake Version:** **4.1.2**
 
