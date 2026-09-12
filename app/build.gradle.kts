@@ -50,7 +50,7 @@ android {
             version = "4.1.2"
         }
     }
-    ndkVersion = "29.0.14206865"
+    ndkVersion = "30.0.16248370"
 }
 kotlin {
     compilerOptions {
