@@ -96,7 +96,7 @@ android {
             version = "4.1.2"
         }
     }
-    ndkVersion = "29.0.14206865"
+    ndkVersion = "30.0.16248370"
 
     //Other Gradle Code Here...
 }
@@ -126,10 +126,9 @@ private external fun message(): String
 
 - **Target SDK:** **37**
 - **Minimum SDK:** **29**
-- **Kotlin Version:** **2.4.10**
-- **Gradle Version:** **9.3.1**
-- **Native Build Tool:** **CMake 3.10.0+**
-- **NDK Version:** **29.0.14206865**
+- **Kotlin Version:** **2.4.20**
+- **Gradle Version:** **9.4.0**
+- **NDK Version:** **30.0.16248370**
 - **CMake Version:** **4.1.2**
 
 ## 📚 References & Tutorials
